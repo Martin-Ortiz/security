@@ -12,7 +12,8 @@ var bodyParser = require('body-parser');
 var wconv_version_date = '2020-02-02';
 var wconv_workspaceId = '38ccf688-5cc3-455f-ae38-0906a2ee62eb';
 var wconv_apikey = '{n-Mi5NpkfJRvaKFLZ_H9R-5zvrIdsO4_hITfZTcT9NlU}';
-var wconv_url = 'https://api.us-south.assistant.watson.cloud.ibm.com';
+var wconv_url = 'https://gateway-lon.watsonplatform.net/assistant/api';
+//var wconv_url = 'https://gateway.watsonplatform.net/assistant/api';
 
 var app = express();
 var appEnv = cfenv.getAppEnv();
